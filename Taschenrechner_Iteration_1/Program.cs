@@ -15,7 +15,7 @@ namespace Taschenrechner_Iteration_1
             Console.WriteLine("Zweite Zahl: ");
             int zweiteZahl = Convert.ToInt32(Console.ReadLine());
             int summe = ersteZahl + zweiteZahl;
-            Console.WriteLine($"Resultat: {summe}");
+            Console.WriteLine($"Summe der beiden Zahlen: {summe}");
             Console.ReadLine();
         }
     }
